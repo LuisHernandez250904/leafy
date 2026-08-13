@@ -15,11 +15,11 @@ class Constants {
   // Settings → API → Project URL  y  Settings → API → anon/public key
   static const String supabaseUrl = String.fromEnvironment(
     'SUPABASE_URL',
-    defaultValue: 'https://YOUR_PROJECT.supabase.co',
+    defaultValue: 'https://kttiizmgifxiohatmrwt.supabase.co',
   );
   static const String supabaseAnonKey = String.fromEnvironment(
     'SUPABASE_ANON_KEY',
-    defaultValue: 'YOUR_ANON_KEY',
+    defaultValue: 'sb_publishable_ufmxBczip7j-x4hh5mW1MQ_sNiutyce',
   );
 
   // Nombre de la tabla y del bucket de Storage en Supabase
